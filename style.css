@@ -103,3 +103,9 @@ footer svg {
 footer a:hover svg {
   transform: scale(1.1);
 }
+
+/* Focus and Hover Effects for Accessibility */
+a:focus, button:focus, .button:focus {
+  outline: 3px dashed #555;
+  outline-offset: 3px;
+}
